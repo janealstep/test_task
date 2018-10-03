@@ -1,6 +1,16 @@
 CLI утилита
-Запускается из командной строки: 
-    python test_task
+Запускается из командной строки.
+
+python test_task.py [drugs] [phase]
+
+Пример запуска: 
+
+python test_task.py "violents placebo" 1
+
+
 Только сначала нужно установить click, если такой билиотеки нет: 
 
   pip install click
+  
+  
+  
